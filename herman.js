@@ -292,7 +292,7 @@ const fvid = {
                 },
 	 message: { 
                  "videoMessage": { 
-                 "title": `Hêrmåñ メ Bo†z ×͜×`,
+                 "title": `ASH BOT`,
                  "h": `${tampilUcapan} ${pushname}`,
                  'duration': '99999', 
                  'caption': `${tampilUcapan} ${pushname}`,
@@ -593,7 +593,7 @@ reply('_*Tunggu Sebentar*_. . .')
 simple.updatePresence(from, Presence.recording)		
 img =  fs.readFileSync('./poto/ngapasiKawan.mp4')
 teks = `Hai ${pushname} 👋${tampilUcapan}
-I'M Hêrmåñ メ Bo†z ×͜×`
+I'M RADIT BOT`
 trans = `BOT INFO
 🗿  _*Nama Bot : ${botname}*_
 😨  _️Nama Owner : ${ownername}_
@@ -622,7 +622,7 @@ simple.updatePresence(from, Presence.recording)
 			simple.sendMessage(from, cowo, image, {caption: 'Ini Untuk »  *𝗖𝗼𝘄𝗼𝗸𝗻𝘆𝗮'})
        cewe = await getBuffer(anu.result.cewe_image)
 		    pll = `Ini Untuk » *𝗖𝗲𝘄𝗲𝗸𝗻𝘆𝗮*`
-   sendButImage(from, pll, `Hêrmåñ メ Bo†z ×͜× © 2021`, cewe, [                      
+   sendButImage(from, pll, `RADIT BOT © 2021`, cewe, [                      
           {
             buttonId: `${prefix}ppcouple`,
             buttonText: {
@@ -685,7 +685,7 @@ break
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
-               const yy = {title: 'Hêrmåñ メ Bo†z ×͜×',
+               const yy = {title: 'RADIT BOT',
                     rows: [
                        {
                         title: `${listmenuu[startnum++]}`,
@@ -832,7 +832,7 @@ oy =`
 🐣 _Nomor User : ${sender.split('@')[0]}_
 _*Youtube Owner*_
 
-https://youtube.com/channel/UCPhU6uA_3gUaEvyrFZFgJqg
+https://youtube.com/channel/UC0q_HnFKhCSIVgmudUmpwcg
 _SubsCribe_
 
 _*LANJUT? KLIK BUTTON DI BAWAH*_
@@ -882,7 +882,7 @@ Jam : ${time}
 HARI : ${week}, ${date}
 𝐃𝐨𝐧'𝐭 𝐒𝐩𝐚𝐦`
 oy =`
-*_Jasa Sewa Bot By : ©Hêrmåñ メ Bo†z ×͜×
+*_Jasa Sewa Bot By : ©RADIT BOT
 *>>>>>>>> *LIST HARGA* >>>>>>>>*
 [🔥] . _Fitur Bot Banyak And Ada Catalog Menu_
 
